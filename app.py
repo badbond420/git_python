@@ -4,7 +4,6 @@ def add_nums(input_list):
     result = 0
     for num in input_list:
         result += num
-
     return result
 
 
@@ -12,7 +11,6 @@ def mul_nums(input_list):
     result = 1
     for num in input_list:
         result *= num
-
     return result
 
 if __name__ == "__main__":
