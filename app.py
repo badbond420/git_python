@@ -18,4 +18,3 @@ def mul_nums(input_list):
 if __name__ == "__main__":
     arr = [9,7,8,9]
     print(add_nums(arr))
-    # branch comment added
