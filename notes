@@ -1,1 +1,2 @@
 ?what happens to commits, when merged to master, how are the sequence in multi developer environments?
+Ans: it merges all commits and looks as, those commits happened in single branch
