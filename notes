@@ -2,7 +2,11 @@
 Ans: it merges all commits and looks as, those commits happened in single branch
 ? what is origin
 Ans: Origin is the alias for the remote repo
+- git reset file (oposite of add)
+- everytime git add (staging), then commit
+- git diff shows the code changes in same
 
 ? rebase
 ? pull vs fetch
 ? mrg conflict
+? bush all branches ata a time
