@@ -1,12 +1,14 @@
-?what happens to commits, when merged to master, how are the sequence in multi developer environments?
+-what happens to commits, when merged to master, how are the sequence in multi developer environments?
 Ans: it merges all commits and looks as, those commits happened in single branch
-? what is origin
+- what is origin
 Ans: Origin is the alias for the remote repo
 - git reset file (oposite of add)
 - everytime git add (staging), then commit
 - git diff shows the code changes in same
+- head points to current active branch
+- during mrg also, have to pass a commit.
 
-? rebase
-? pull vs fetch
 ? mrg conflict
-? bush all branches ata a time
+? pull vs fetch, what happend if file changed and done pull on top of it
+? push all branches ata a time
+? rebase
