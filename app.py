@@ -13,7 +13,12 @@ def mul_nums(input_list):
         result *= num
     return result
 
+
 def another_def():
+    pass
+
+
+def branching_function():
     pass
 
 if __name__ == "__main__":
