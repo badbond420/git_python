@@ -15,5 +15,5 @@ def mul_nums(input_list):
     return result
 
 if __name__ == "__main__":
-    arr = [9,7,8,9]
+    arr = [9,7,8,9,10]
     print(add_nums(arr))
