@@ -13,6 +13,9 @@ def mul_nums(input_list):
         result *= num
     return result
 
+def branching_function():
+    pass
+
 if __name__ == "__main__":
     arr = [9,7,8,9,11]
     print(add_nums(arr))
