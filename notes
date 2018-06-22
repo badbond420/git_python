@@ -2,12 +2,16 @@ Q: what happens to commits, when merged to master, how are the sequence in multi
 Ans: it merges all commits and looks as, those commits happened in single branch
 Q: what is origin
 Ans: Origin is the alias for the remote repo
-- git reset file (oposite of add)
+
 - everytime git add (staging), then commit
 - git diff shows the code changes in same
 - head points to current active branch
 - during mrg also, have to pass a commit.
-
+- git revert wir take the state to that commit, and do a new comit to save the back date data.
+- git reset file (oposite of add)/  or we can use git checkout again to claer changes.
+- hit reset(hard)    os like revert but, it just moves back to pointer to back commit, and forgets newer commits after that point
+- git checkout also checkout one commit id in same barnch
+-
 Q: mrg conflict
 - if branch is ahaed of master, then mrg conflict wont happen, though u edited same line/file in branch.
 - or if the same file not edited in dif branched with ref to a last commit, where branch created.
@@ -15,6 +19,11 @@ Q: mrg conflict
   branch is created.
 - resolve mrg by pycharm ui.
 - change latest commit msg by "commit --amend -m"
-? pull vs fetch, what happend if file changed and done pull on top of it
-? push all branches ata a time
-? rebase
+
+Q: pull vs fetch, what happend if file changed and done pull on top of it
+
+Q: push all branches ata a time
+- git push REMOTE --all
+Q: rebase
+- it more of re writing history, if u have forked a brench from before, but now you want to change the fork point to a latest
+  commit, you have to do it using re-base
