@@ -11,6 +11,10 @@ Ans: Origin is the alias for the remote repo
 ? mrg conflict
 - if branch is ahaed of master, then mrg conflict wont happen, though u edited same line/file in branch.
 - or if the same file not edited in dif branched with ref to a last commit, where branch created.
+- mrg conflict ocuures if same file is edited in diff branch + both brach re ahaed of the commit from where
+  branch is created.
+- resolve mrg by pycharm ui.
+- change latest commit msg by "commit --amend -m"
 ? pull vs fetch, what happend if file changed and done pull on top of it
 ? push all branches ata a time
 ? rebase
