@@ -2,8 +2,8 @@ import os
 
 def add_nums(input_list):
     result = 0
-    for num in input_list:
-        result += num
+    for number in input_list:
+        result += number
     return result
 
 
