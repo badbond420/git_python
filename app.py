@@ -19,7 +19,7 @@ def another_def():
 
 
 def branching_function():
-    pass
+    return 1
 
 if __name__ == "__main__":
     arr = [9,7,8,9,11]
