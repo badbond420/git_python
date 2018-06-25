@@ -23,7 +23,7 @@ Q: mrg conflict
 Q: pull vs fetch, what happend if file changed and done pull on top of it
 - git pull, fetch and mrg but fetch only fetch, to merge, you have to
   do git merge origin/master
--
+- during pull, if mismatc
 Q: push all branches ata a time
 - git push REMOTE --all
 Q: rebase
