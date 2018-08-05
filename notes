@@ -7,7 +7,7 @@ Ans: Origin is the alias for the remote repo
 - git diff shows the code changes in same
 - head points to current active branch
 - during mrg also, have to pass a commit.
-- git revert wir take the state to that commit, and do a new comit to save the back date data.
+- git revert(only prev commit) wir take the state to that commit, and do a new comit to save the back date data.
 - git reset file (oposite of add)/  or we can use git checkout again to claer changes.
 - hit reset(hard)    os like revert but, it just moves back to pointer to back commit, and forgets newer commits after that point
 - git checkout also checkout one commit id in same barnch
@@ -29,3 +29,21 @@ Q: push all branches ata a time
 Q: rebase
 - it more of re writing history, if u have forked a brench from before, but now you want to change the fork point to a latest
   commit, you have to do it using re-base
+  
+Q. Reset  master (local/remote) branch to previous commit
+git reset (--hard) cedc856 :without hard the changed files shows as edited in red.
+git push --force origin master
+Q. above with revert
+it does only to previous commit
+
+Q. Undo local changes ( + with reset) 
+git reset --hard HEAD # all
+git checkout <file>
+
+Q. Un-stage local changes 
+git reset #for all files
+git reset <filename>
+
+https://www.youtube.com/watch?v=F7NquM3qXXE&list=PL13bz4SHGmRxVVFIjP1_NGUxGUa68YqC-
+https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+? git revert to previous commit id
