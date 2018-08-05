@@ -47,3 +47,4 @@ git reset <filename>
 https://www.youtube.com/watch?v=F7NquM3qXXE&list=PL13bz4SHGmRxVVFIjP1_NGUxGUa68YqC-
 https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 ? git revert to previous commit id
+? git reset hard vs soft
