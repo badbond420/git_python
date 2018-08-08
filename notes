@@ -11,7 +11,8 @@ Ans: Origin is the alias for the remote repo
 - git reset file (oposite of add)/  or we can use git checkout again to claer changes.
 - hit reset(hard)    os like revert but, it just moves back to pointer to back commit, and forgets newer commits after that point
 - git checkout also checkout one commit id in same barnch
--
+- git fetch --all will get all the remote branches to local machine
+- if you are using ssh to authenticate, then clone the ssh url not http url, http url asks for user/pass for push.
 Q: mrg conflict
 - if branch is ahaed of master, then mrg conflict wont happen, though u edited same line/file in branch.
 - or if the same file not edited in dif branched with ref to a last commit, where branch created.
@@ -29,6 +30,9 @@ Q: push all branches ata a time
 Q: rebase
 - it more of re writing history, if u have forked a brench from before, but now you want to change the fork point to a latest
   commit, you have to do it using re-base
+- tag is used to give a name to a commit rather than ugly hash, mostly tag is used to pin a important invo, may be version1.0. so that
+  we dont have to remember the ugly hash.
+- tag can be used as alternative name o of a commit id.
   
 Q. Reset  master (local/remote) branch to previous commit
 git reset (--hard) cedc856 :without hard the changed files shows as edited in red.
@@ -48,3 +52,5 @@ https://www.youtube.com/watch?v=F7NquM3qXXE&list=PL13bz4SHGmRxVVFIjP1_NGUxGUa68Y
 https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 ? git revert to previous commit id
 ? git reset hard vs soft
+? practice the pull/mrg request with/without mrg conflict from 2 user sceario, wher the one doesnt have write permission rase pull request to the owner.
+? prctice write perission user wise, How David used to resolve and mrg but not me/trianz team/
