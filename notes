@@ -55,3 +55,4 @@ https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 ? practice the pull/mrg request with/without mrg conflict from 2 user sceario, wher the one doesnt have write permission rase pull request to the owner.
 ? prctice write perission user wise, How David used to resolve and mrg but not me/trianz team/
 ? git revert and git reset when a merg request is on.
+? 2 accounts and review one from another. plus create one org project.
